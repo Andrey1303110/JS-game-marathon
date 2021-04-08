@@ -1,17 +1,17 @@
 // first comment
 
 const player1 = {
-    name: 'Kitana',
+    name: 'Scorpio',
     hp: 50,
-    img: 'http://reactmarathon-api.herokuapp.com/assets/kitana.gif',
+    img: 'http://reactmarathon-api.herokuapp.com/assets/scorpion.gif',
     weapon: ['knife', 'glock'], 
     attack: function() {console.log (player1.name + 'Fight');} 
 };
 
 const player2 = {
-    name: 'Sonya',
+    name: 'Sub-Zero',
     hp: 50,
-    img: 'http://reactmarathon-api.herokuapp.com/assets/sonya.gif',
+    img: 'http://reactmarathon-api.herokuapp.com/assets/subzero.gif',
     weapon: ['knife', 'glock'], 
     attack: function() {console.log (player2.name + 'Fight');} 
 };
